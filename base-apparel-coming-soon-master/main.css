@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+:root {
+--sundown: #ffb3b5;
+--geraldine:#ff9092;
+--orientalpink:#c99596;
+--tundora: #4b4343 ;
+}
+
+html,
+body {
+    background-color: #fff;
+    background-image: url('images/hero-desktop.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    font-family: josefin sans;
+    color: var(--orientalpink);
+}
+
+
+main {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 600px;
+    margin: 30px 200px;
+}
+
+.logo {
+    
+}
+
+.content {
+    margin: 80px 0px;
+    width: 450px;
+}
+
+h1 {
+    text-align: left;
+    font-size: 70px;
+    text-transform: uppercase;
+    letter-spacing: 15px;
+}
+
+.were {
+    font-weight:300;
+    color: var(--orientalpink);
+}
+
+.soon {
+    font-weight: 600;
+    color: var(--tundora);
+}
+
+p {
+    line-height: 2;
+    margin: 30px 0px;
+}
+
+#email {
+    border-radius: 24px;
+    padding: 10px 25px;
+    width: 83%;
+    height: 25px;
+    border: .5px solid var(--sundown);
+    color: var(--sundown);
+    font-family: josefin sans;
+}
+
+#submit {
+    position: absolute;
+    height: 46px;
+    width: 90px;
+    background: Linear-gradient(135deg ,#ffb3b5,#ff9092);
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: josefin sans;
+    font-weight: 300;
+    border-radius: 24px;
+    border: none;
+    right: 170px;
+    top: 550px;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 300px;
+}
+
+a:link, a:visited {
+    color: var(--geraldine);
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: var(--tundora);
+    text-decoration: none;
+  }
